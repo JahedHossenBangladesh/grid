@@ -3,7 +3,7 @@
 }
 
 .two-vw-column-container {
-  grid-template-columns: 10vw 30vw;
+  grid-template-columns: 10vw 50vw;
 }
 
 .two-vw-row-container {
@@ -13,19 +13,31 @@
 }
 
 .two-vh-column-container {
+  grid-template-columns: 10vh 30vh;
 }
 
 .two-vh-row-container {
+  height: 58vh;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 10vh 30vh;
 }
 
 .two-vmax-column-container {
+  grid-template-columns: 10vmax 30vmax;
 }
 
 .two-vmax-row-container {
+  height: 58vmax;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 10vmax 30vmax;
 }
 
 .two-vmin-column-container {
+  grid-template-columns: 10vmin 30vmin;
 }
 
 .two-vmin-row-container {
+  height: 58vmin;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 10vmin 30vmin;
 }
