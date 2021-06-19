@@ -1,35 +1,31 @@
 .container {
-    display: grid;
+  display: grid;
 }
 
 .two-vw-column-container {
-    
+  grid-template-columns: 10vw 30vw;
 }
 
 .two-vw-row-container {
-
+  height: 58vw;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 10vw 30vw;
 }
 
 .two-vh-column-container {
-
 }
 
 .two-vh-row-container {
-
 }
 
 .two-vmax-column-container {
-
 }
 
 .two-vmax-row-container {
-
 }
 
 .two-vmin-column-container {
-
 }
 
 .two-vmin-row-container {
-
 }
