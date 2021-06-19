@@ -1,3 +1,4 @@
 .container {
-    display: grid;
+  display: grid;
+  grid: 200px 300px 400px/ 600px 200px;
 }
