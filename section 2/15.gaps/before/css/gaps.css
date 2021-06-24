@@ -1,56 +1,56 @@
 body {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .item {
-    border: 1px solid #F00;
+  border: 1px solid #f00;
 }
 
 .column-gap-container {
-
+  grid-column-gap: 10px;
 }
 
 .row-gap-container {
-
+  grid-row-gap: 10px;
 }
 
 .both-gap-container {
-
+  grid-gap: 10px;
 }
 
 .combined-gap-container {
-
+  grid-gap: 20px;
 }
 
 .percentage-gap-container {
-
+  grid-gap: 30%;
 }
 
 .vw-gap-container {
-
+  grid-gap: 20vw;
 }
 
 .vh-gap-container {
-
+  grid-gap: 20vh;
 }
 
 .vmax-gap-container {
-
+  grid-gap: 20vmax;
 }
 
 .vmin-gap-container {
-
+  grid-gap: 20vmin;
 }
 
 .em-gap-container {
-
+  grid-gap: 20em;
 }
 
 .rem-gap-container {
-
+  grid-gap: 20rem;
 }
