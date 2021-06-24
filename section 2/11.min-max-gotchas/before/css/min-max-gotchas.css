@@ -1,35 +1,35 @@
 body {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 .container {
-    display: grid;
+  display: grid;
 }
 
 .percentage-fixed-min-max-container {
-
+  grid-template-columns: minmax(80%, 900px) 100px;
 }
 
 .viewport-fixed-min-max-container {
-
+  grid-template-columns: minmax(10vw, 400px) 20vw;
 }
 
 .em-fixed-min-max-container {
-
+  grid-template-columns: minmax(10em, 500px) 300px;
 }
 
 .rem-fixed-min-max-container {
-
+  grid-template-columns: minmax(10rem, 500px) 300px;
 }
 
 .fraction-fixed-min-max-container {
-
+  grid-template-columns: minmax(1fr, 200px) 1fr;
 }
 
 .two-fractions-container {
-
+  grid-template-columns: minmax(1fr, 1fr) 1fr;
 }
 
 .inner-min-max-container {
-
+  grid-template-columns: minmax(200px, minmax(200px, 1fr)) 1fr;
 }
